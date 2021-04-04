@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Vetores</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <label class="label-in">Entre com um número múltiplo de 10, entre 100 e 1000:</label>
+        <p id="error" class="errorText"></p>
+        <input autofocus type="number" min="100" max="1000" id="fieldUser">
+        <div class="buttons-body">
+            <button onclick="GetUserNumber()">Enviar</button>
+            <button class="btn-clean" onclick="CleanInput()">Limpar</button>
+        </div>      
+        <p id="fieldElements" class="OutputNumbers"></p>
+        <p id="fieldElementsOdd" class="OutputNumbers"></p>
+        <div class="bodyAsk">
+            <p class="askSum" id="askSum">Deseja saber a somatória das posições ímpares ou pares do array?</p>
+            
+        </div>
+        
+    </div>
+   
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

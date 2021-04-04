@@ -1,0 +1,77 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(4,4,25,1) 100%, rgba(0,212,255,1) 100%);
+    color: green;
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    
+}
+.container {
+    transform: translateY(40%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.label-in {
+    margin-bottom: 20px;
+}
+input {
+    min-width: 300px;
+    padding: 10px ;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    background-color: #F49D6E;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    transition: all .4s;
+}
+.btn-even, .btn-odd {
+    visibility: hidden;
+}
+.btn-even {
+   background-color: rgb(30, 153, 153);
+    color: white;
+}
+.btn-odd {
+    background-color: rgb(65, 153, 30);
+     color: white;
+ }
+.btn-clean {
+    background-color: #924116;
+}
+button:hover {
+    background-color: #ec854d;
+    box-shadow: 0px 0px 3px 1px snow;
+}
+.errorText {
+    color: rgba(255, 0, 0, 0.849);
+    font-size: 11px;
+    font-weight: 100;
+}
+.askSum {
+    color: green;
+    font-size: 13px;
+    font-weight: 100;
+    visibility: hidden;
+}
+.OutputNumbers{
+    background-color: #ffffff1f;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;  
+}

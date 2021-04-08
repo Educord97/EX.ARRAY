@@ -58,20 +58,23 @@ button:hover {
 }
 .errorText {
     color: rgba(255, 0, 0, 0.849);
-    font-size: 11px;
-    font-weight: 100;
-}
-.askSum {
-    color: green;
     font-size: 13px;
     font-weight: 100;
-    visibility: hidden;
+}
+.sumEven {
+    color: green;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: #1b1f4db0;
+    
 }
 .OutputNumbers{
     background-color: #ffffff1f;
     height: 35px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 30px;  
+    align-items: center;  
+}
+.bodyArray{
+    margin-top: 30px;
 }

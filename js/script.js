@@ -2,7 +2,7 @@ function GetUserNumber() {
 	var userNumber = document.getElementById("fieldUser").value
 	var handleError = document.getElementById("error");
 
-	if(userNumber < 100 || userNumber > 1000 || userNumber % 10 !== 0) {
+	if(userNumber < 100 || userNumber > 1000 || userNumber % 10 != 0) {
 		handleError.innerHTML = "Atenção! Digite um número múltiplo de 10, entre 100 e 1000"
 		return CleanInput();
 	} else {
